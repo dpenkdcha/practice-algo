@@ -2,6 +2,8 @@ package Armstrong;
 
 /**
  * NthArmstrong
+ * For range change the for loop i
+ * For ith to jth meintaine two count for printing
  */
 public class NthArmstrong {
 
