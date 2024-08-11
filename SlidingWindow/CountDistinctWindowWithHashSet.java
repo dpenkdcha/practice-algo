@@ -1,4 +1,4 @@
-package CountDistinctWindow;
+package SlidingWindow;
 
 import java.util.HashSet;
 
