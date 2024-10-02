@@ -22,9 +22,9 @@ public class CountDistinctWindowWithHashMap {
         map.remove(arr[i - K]);
       } else
         map.put(arr[i - K], map.get(arr[i - K]) - 1);
-      
-        map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
-        list.add(map.size());
+
+      map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
+      list.add(map.size());
     }
 
     list.forEach(x -> System.out.print(x + " "));
@@ -32,5 +32,5 @@ public class CountDistinctWindowWithHashMap {
 
 }
 
-//6 6 7 7 7 6 7 8 8 8
-//6 5 6 5 5 5 6 5 6 5 
+// 6 6 7 7 7 6 7 8 8 8
+// 6 5 6 5 5 5 6 5 6 5
